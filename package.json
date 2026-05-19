@@ -7,9 +7,6 @@
     "build:client": "npm run build --prefix client",
     "build": "npm run build --prefix client",
     "start": "node server/index.js",
-    "production": "cross-env NODE_ENV=production node server/index.js"
-  },
-  "dependencies": {
-    "cross-env": "^7.0.3"
+    "production": "node server/index.js"
   }
 }
